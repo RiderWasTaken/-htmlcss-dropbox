@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Karla', sans-serif;
 }
 /* -----tags----- */
 main {
@@ -10,21 +11,8 @@ main {
 
 nav {
     background-color: white;
-}
-
-ul {
-    list-style: none;
-    display: inline-block;
-}
-
-li {
-    display: inline-block;
-    margin-left: 30px;
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 15px;
-    left: 25%;
-    cursor: pointer;
+    padding: 5px 5px;
+    
 }
 
 button {
@@ -41,6 +29,106 @@ button {
     cursor: pointer;
 }
 /* -----classes----- */
+.nav-li {
+    display: inline-block;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 25%;
+    cursor: pointer;
+}
+
+.nav-ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.navl {
+    position: relative;
+    right: 5%;
+    
+}
+
+.navr {
+    position: relative;
+    left: 30%;
+    
+}
+
+.start {
+    position: relative;
+    left: 40%;
+}
+
+.sub, .partner, .info, .clients-head, .faq {
+    padding: 0 15%;
+}
+
+.sub-container {
+    margin-bottom: 30px;
+}
+
+.sub-plans {
+    margin: 0 20px;
+    border: solid 1px;
+    width: 30%;
+    height: 750px;
+    padding: 0 20px 30px;
+
+}
+
+.sub-plans * {
+    line-height: 200%;
+}
+
+.sub-head {
+    text-align: center;
+    border-bottom: solid 1px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.sub-button {
+    position: relative;
+    left: 15%;
+}
+
+.sub-ul {
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sub-custom {
+    margin: 0 20px;
+    border: solid 1px;
+    width: 100%;
+    height: 350px;
+    padding: 0 20px 30px;
+}
+
+.custom-head {
+    text-align: center;
+    border-bottom: solid 1px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.info-box {
+    width: 30%;
+    height: 45%;
+    margin:20px;
+}
+
+.box-pic {
+    width: 400px;
+    height: auto;
+}
+
+.check {
+    color: rgb(0,97,255);
+}
+
 .fl {
     float: left;
 }
@@ -54,4 +142,5 @@ button {
     display: table;
     clear: both;
 }
+
 /* -----id's----- */
