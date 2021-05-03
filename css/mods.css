@@ -5,8 +5,10 @@
     font-family: 'Karla', sans-serif;
 }
 /* -----tags----- */
+
 main {
     background-color: rgb(180,208,231);
+    margin-bottom: 10%;
 }
 
 nav {
@@ -28,7 +30,46 @@ button {
     left: 165px;
     cursor: pointer;
 }
+
 /* -----classes----- */
+
+.jumbo {
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: 80px;
+    right: 5%;
+}
+
+.main-text p{
+    position: relative;
+    top: 100px;
+    left: 28%;
+}
+
+.main-text h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.main-start button {
+    position: relative;
+    top: 250px;
+}
+
+.main-start p {
+    position: relative;
+    top: 270px;
+    left: 10%;
+}
+
+.main-start span {
+    position: relative;
+    top: 290px;
+    left: 10%;
+}
+
 .nav-li {
     display: inline-block;
     margin-left: 30px;
@@ -68,13 +109,22 @@ button {
     margin-bottom: 30px;
 }
 
+.sub-container h1 {
+    text-align: center;
+}
+
+.radio {
+    position: relative;
+    left: 2%;
+}
+
 .sub-plans {
     margin: 0 20px;
     border: solid 1px;
     width: 30%;
     height: 750px;
     padding: 0 20px 30px;
-
+    
 }
 
 .sub-plans * {
@@ -102,8 +152,8 @@ button {
 .sub-custom {
     margin: 0 20px;
     border: solid 1px;
-    width: 100%;
-    height: 350px;
+    width: 97%;
+    height: 250px;
     padding: 0 20px 30px;
 }
 
@@ -112,6 +162,49 @@ button {
     border-bottom: solid 1px;
     font-size: 18px;
     padding: 5px 20px;
+}
+
+.custom-body{
+    padding-top: 2%;
+    line-height: 200%;
+}
+
+.custom-body button {
+    position: relative;
+    left: 80%;
+}
+
+.partner {
+    width: 100%;
+    height: auto;
+    margin: 7% 0;
+}
+
+.partner-pic {
+    width: 43%;
+    margin: 0 5% 0 2%;
+}
+
+.partner-body {
+    position: relative;
+    top: 150px;
+}
+
+.partner-body button {
+    border: solid 1px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+     margin: 4px 2px;
+    position: relative;
+    left: 165px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: 0%;
 }
 
 .info-box {
